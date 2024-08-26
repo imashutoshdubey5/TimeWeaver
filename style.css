@@ -1,0 +1,115 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+ }
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+ .main{
+    height: 100vh; 
+    display: flex;
+    background-image: url(mountains-6839521_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ h2{
+    margin-top: 300px;
+    color:#FFFF1D;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+ }
+ .container{
+    display: flex;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-weight: bolder
+ }
+ .container div{
+    margin: 5px;
+ }
+ .container span{
+     width:100px;
+     height: 80px;
+     background-color: #FFFF3D;
+     display: flex; 
+     align-items: center;
+     justify-content: center; 
+     font-size: 50px;   
+ }
+
+ .container .text
+ {
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: 900px;
+    text-transform: uppercase;
+   letter-spacing: 2px;
+   background-color:#082142 ;
+   display: flex;
+   align-items: center;
+ }
+ .container #ampm{
+      width: 100px;
+      height: 80px;
+      font-size: 30px;
+      background-color:#365F45;
+ } 
+
+ @media screen and (max-width:600px) {
+
+    .main{
+        height: 100%; 
+        display: flex;
+        background-image:url(https://c4.wallpaperflare.com/wallpaper/302/558/548/nature-photography-portrait-display-wallpaper-preview.jpg);
+        background-size: cover;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .container div{
+        margin: 6px;
+     }
+     .container span{
+        width:70px;
+        height: 65px;
+        background-color:#FAE2E2;
+        display: flex; 
+        align-items: center;
+        justify-content: center; 
+        font-size: 50px;   
+    }
+    
+ .container .text
+ {
+    height: 18px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+   letter-spacing: 1px;
+   background-color:#E8D2A1;
+   display: flex;
+   align-items: center;
+ }
+ .container #ampm{
+    width: 70px;
+    height: 65px;
+    font-size: 30px;
+    background-color:#FAE2E2;
+}
+h2{
+    margin-top: 78px;
+}
+ }
+ 
+
+    
