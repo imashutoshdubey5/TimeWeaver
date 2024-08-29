@@ -1,7 +1,7 @@
 let hours=document.querySelector("#hours");
 let minutes=document.querySelector("#minutes");
 let seconds=document.querySelector("#seconds");
-let ampm = document.querySelector("#amppm");
+let ampm = document.querySelector("#amppm"); 
  
 
 function updateClock(){
@@ -12,7 +12,9 @@ function updateClock(){
     if(h>12)
     {
         h=h-12;
-        ampm="PM"
+        ampm="PM";
+
+         
     }
     h=h<10? "0"+h : h;
     m=m<10? "0"+m : m;
